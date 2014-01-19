@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">AntennaPict</string>
+
+    <!-- AntennaPictActivity -->
+    <string name="title_category_icon">Icon</string>
+    <string name="title_category_notification">Notification</string>
+    <string name="title_category_software_information">About</string>
+    <string name="title_service_start">Display antenna</string>
+    <string name="title_auto_start_at_boot">Auto start</string>
+    <string name="summary_auto_start_at_boot">Automatically start at boot</string>
+    <string name="title_always_highlight_icon">Always highlight icon</string>
+    <string name="summary_always_highlight_icon">Use highlight icon even if disconnected</string>
+    <string name="title_notify_connection_state_change">Notify connection state change</string>
+    <string name="summary_notify_connection_state_change">Notify when connection state changed</string>
+    <string name="title_vibrate_on_notify">Vibrate on notify</string>
+    <string name="title_application_version">Version</string>
+    <string name="toast_warning_preference_corrupted">Your settings was corrupt.  Reset to default.</string>
+    <string name="icon_color">Icon color</string>
+    <string name="icon_color_blue">Blue</string>
+    <string name="icon_color_white">White</string>
+    <string name="notification_priority">Icon priority</string>
+    <string name="notification_priority_max">Max</string>
+    <string name="notification_priority_high">High</string>
+    <string name="notification_priority_default">Default</string>
+    <string name="notification_priority_low">Low</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- AntennaPictService -->
+    <string name="data_disconnected_airplane_mode">Disconnected (Airplane Mode)</string>
+    <string name="data_disconnected">Disconnected</string>
+    <string name="data_connecting">Connecting</string>
+    <string name="data_connected">Connected</string>
+    <string name="signal_level">Signal Level %d</string>
+
+    <!-- key -->
+    <string name="key_service_switch">key_service_switch</string>
+    <string name="key_auto_start_at_boot">key_auto_start_at_boot</string>
+    <string name="key_icon_color">key_icon_color</string>
+    <string name="key_notification_priority">key_notification_priority</string>
+    <string name="key_always_highlight_icon">key_always_highlight_icon</string>
+    <string name="key_notify_connection_state_change">key_notify_connection_state_change</string>
+    <string name="key_vibrate_on_notify">key_vibrate_on_notify</string>
+    <string name="key_application_version">key_application_version</string>
+
+</resources>

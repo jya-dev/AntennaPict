@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">AntennaPict</string>
+
+    <!-- AntennaPictActivity -->
+    <string name="title_category_icon">アイコン設定</string>
+    <string name="title_category_notification">通知設定</string>
+    <string name="title_category_software_information">アプリについて</string>
+    <string name="title_service_start">アンテナ表示</string>
+    <string name="title_auto_start_at_boot">自動開始</string>
+    <string name="summary_auto_start_at_boot">システム起動時に自動的に開始する</string>
+    <string name="title_always_highlight_icon">常に明るいアイコン</string>
+    <string name="summary_always_highlight_icon">未接続でも明るいアイコンを表示する</string>
+    <string name="title_notify_connection_state_change">接続通知</string>
+    <string name="summary_notify_connection_state_change">接続状態が変化したときに通知する</string>
+    <string name="title_vibrate_on_notify">通知時のバイブレーション</string>
+    <string name="title_application_version">バージョン</string>
+    <string name="toast_warning_preference_corrupted">設定が壊れていたためリセットされました</string>
+    <string name="icon_color">アイコンカラー</string>
+    <string name="icon_color_blue">ブルー</string>
+    <string name="icon_color_white">ホワイト</string>
+    <string name="notification_priority">アイコン表示優先度</string>
+    <string name="notification_priority_max">最高</string>
+    <string name="notification_priority_high">高</string>
+    <string name="notification_priority_default">標準</string>
+    <string name="notification_priority_low">低</string>
+    <string name="unknown">不明</string>
+
+    <!-- AntennaPictService -->
+    <string name="data_disconnected_airplane_mode">未接続 (機内モード)</string>
+    <string name="data_disconnected">未接続</string>
+    <string name="data_connecting">接続中</string>
+    <string name="data_connected">接続完了</string>
+    <string name="signal_level">電波強度レベル%d</string>
+
+    <!-- key -->
+    <string name="key_service_switch">key_service_switch</string>
+    <string name="key_auto_start_at_boot">key_auto_start_at_boot</string>
+    <string name="key_icon_color">key_icon_color</string>
+    <string name="key_notification_priority">key_notification_priority</string>
+    <string name="key_always_highlight_icon">key_always_highlight_icon</string>
+    <string name="key_notify_connection_state_change">key_notify_connection_state_change</string>
+    <string name="key_vibrate_on_notify">key_vibrate_on_notify</string>
+    <string name="key_application_version">key_application_version</string>
+
+</resources>

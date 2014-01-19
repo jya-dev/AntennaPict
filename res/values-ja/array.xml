@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="icon_color_entry">
+        <item>@string/icon_color_white</item>
+        <item>@string/icon_color_blue</item>
+    </string-array>
+    <string-array name="icon_color_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notification_priority_entry">
+        <item>@string/notification_priority_max</item>
+        <item>@string/notification_priority_high</item>
+        <item>@string/notification_priority_default</item>
+        <item>@string/notification_priority_low</item>
+    </string-array>
+    <string-array name="notification_priority_value">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+</resources>

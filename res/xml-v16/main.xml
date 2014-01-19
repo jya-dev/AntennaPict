@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/key_auto_start_at_boot"
+        android:persistent="true"
+        android:summary="@string/summary_auto_start_at_boot"
+        android:title="@string/title_auto_start_at_boot" />
+
+    <PreferenceCategory android:title="@string/title_category_icon" >
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/icon_color_entry"
+            android:entryValues="@array/icon_color_value"
+            android:key="@string/key_icon_color"
+            android:persistent="true"
+            android:title="@string/icon_color" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_always_highlight_icon"
+            android:persistent="true"
+            android:summary="@string/summary_always_highlight_icon"
+            android:title="@string/title_always_highlight_icon" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/notification_priority_entry"
+            android:entryValues="@array/notification_priority_value"
+            android:key="@string/key_notification_priority"
+            android:persistent="true"
+            android:title="@string/notification_priority" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_category_notification" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_notify_connection_state_change"
+            android:persistent="true"
+            android:summary="@string/summary_notify_connection_state_change"
+            android:title="@string/title_notify_connection_state_change" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_notify_connection_state_change"
+            android:key="@string/key_vibrate_on_notify"
+            android:persistent="true"
+            android:title="@string/title_vibrate_on_notify" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_category_software_information" >
+        <Preference
+            android:key="@string/key_application_version"
+            android:selectable="false"
+            android:summary=""
+            android:title="@string/title_application_version" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
